@@ -1,0 +1,11 @@
+.layout {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  gap: 1rem;
+  padding: 0 1rem;
+  height: 100vh;
+  background: linear-gradient(135deg, #b8e994, #2b5234);
+}

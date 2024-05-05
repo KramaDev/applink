@@ -1,0 +1,23 @@
+:root {
+  --color-black: #222;
+  --color-white: #fff;
+  --color-gray: #414141;
+  --color-green: #78e08f;
+
+  --border-round: 1rem;
+  --border-circle: 1600rem;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+//IMPORTS
+//COMPONENTS A-Z
+@import "./components/container.scss";
+@import "./components/layout.scss";

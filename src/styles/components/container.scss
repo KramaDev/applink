@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem;
+  color: var(--color-white);
+  font-weight: 800;
+  box-shadow: 1px 1px 1rem var(--color-black);
+  background: linear-gradient(180deg, #5c5c5c, #2c2c2c);
+  border-radius: var(--border-round);
+  z-index: 1;
+
+  &__title {
+    text-transform: uppercase;
+    font-size: 3rem;
+    margin: 0.5rem;
+  }
+
+  &__btn {
+    padding: 0.5rem 0.8rem;
+    width: 80%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: var(--border-round);
+    border: none;
+    box-shadow: 1px 1px 0.25rem var(--color-white);
+    color: var(--color-white);
+    background-color: var(--color-green);
+    text-align: center;
+    transition: all 150ms ease-in-out;
+    cursor: pointer;
+    &:hover {
+      scale: 0.9;
+      background-color: var(--color-white);
+      border: 0.25rem solid var(--color-green);
+      color: var(--color-black);
+    }
+  }
+  &__tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    color: var(--color-white);
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 500;
+    & .signature {
+      font-weight: 700;
+      color: var(--color-green);
+    }
+    & .img {
+      width: 2.25rem;
+      height: 2.25rem;
+      object-fit: cover;
+      border-radius: var(--border-circle);
+      box-shadow: 1px 1px 0.25rem var(--color-white);
+    }
+  }
+}
