@@ -58,6 +58,14 @@
       object-fit: cover;
       border-radius: var(--border-circle);
       box-shadow: 1px 1px 0.25rem var(--color-white);
+      @media only screen and (max-width: 600px) {
+        width: 1.25rem;
+        height: 1.25rem;
+      }
+    }
+
+    @media only screen and (max-width: 600px) {
+      font-size: 0.75rem;
     }
   }
 }
