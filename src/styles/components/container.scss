@@ -16,6 +16,9 @@
     text-transform: uppercase;
     font-size: 3rem;
     margin: 0.5rem;
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+    }
   }
 
   &__btn {
@@ -32,6 +35,9 @@
     text-align: center;
     transition: all 150ms ease-in-out;
     cursor: pointer;
+    @media only screen and (max-width: 600px) {
+      font-size: 0.5rem;
+    }
     &:hover {
       scale: 0.9;
       background-color: var(--color-white);
@@ -65,7 +71,7 @@
     }
 
     @media only screen and (max-width: 600px) {
-      font-size: 0.75rem;
+      font-size: 0.5rem;
     }
   }
 }
